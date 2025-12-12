@@ -34,17 +34,17 @@
 	<header class="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
 		<div class="flex items-center gap-2">
 			<!-- Logo Icon -->
-			<div class="text-blue-600">
-				<svg viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-					<path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM12 22C10.9 22 10 21.1 10 20C10 18.9 10.9 18 12 18C13.1 18 14 18.9 14 20C14 21.1 13.1 22 12 22ZM6 12C6 10.9 5.1 10 4 10C2.9 10 2 10.9 2 12C2 13.1 2.9 14 4 14C5.1 14 6 13.1 6 12ZM22 12C22 13.1 21.1 14 20 14C18.9 14 18 13.1 18 12C18 10.9 18.9 10 20 10C21.1 10 22 10.9 22 12ZM17.66 7.34C18.44 6.56 19.7 6.56 20.48 7.34C21.26 8.12 21.26 9.38 20.48 10.16C19.7 10.94 18.44 10.94 17.66 10.16C16.88 9.38 16.88 8.12 17.66 7.34ZM6.34 16.66C5.56 17.44 4.3 17.44 3.52 16.66C2.74 15.88 2.74 14.62 3.52 13.84C4.3 13.06 5.56 13.06 6.34 13.84C7.12 14.62 7.12 15.88 6.34 16.66ZM16.66 17.66C15.88 18.44 15.88 19.7 16.66 20.48C17.44 21.26 18.7 21.26 19.48 20.48C20.26 19.7 20.26 18.44 19.48 17.66C18.7 16.88 18.7 15.62 17.92 14.84L16.66 17.66ZM7.34 6.34C8.12 5.56 8.12 4.3 7.34 3.52C6.56 2.74 5.3 2.74 4.52 3.52C3.74 4.3 3.74 5.56 4.52 6.34C5.3 7.12 6.56 7.12 7.34 6.34Z" />
-					<circle cx="12" cy="12" r="3" class="text-blue-500" />
+			<div class="text-gray-900">
+				<svg width="24" height="16" viewBox="0 0 117 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M83.0101 48.3334H67.6809C65.1171 48.3334 62.6584 49.3518 60.8454 51.1647L56.8415 55.1687C55.0285 56.9817 52.5698 58 50.0059 58H34.6768C26.6686 58 20.1768 51.5081 20.1768 43.5C20.1768 35.4919 26.6686 29 34.6768 29H50.0059C52.5698 29 55.0285 27.9817 56.8415 26.1687L60.8454 22.1647C62.6584 20.3518 65.1171 19.3334 67.6809 19.3334H83.0101C91.0182 19.3334 97.5101 25.8253 97.5101 33.8334C97.5101 41.8415 91.0182 48.3334 83.0101 48.3334ZM67.6809 29C65.1171 29 62.6584 30.0184 60.8454 31.8314L56.8415 35.8353C55.0285 37.6483 52.5698 38.6667 50.0059 38.6667H34.6768C32.0073 38.6667 29.8434 40.8306 29.8434 43.5C29.8434 46.1695 32.0073 48.3334 34.6768 48.3334H50.0059C52.5698 48.3334 55.0285 47.315 56.8415 45.502L60.8454 41.4981C62.6584 39.6851 65.1171 38.6667 67.6809 38.6667H83.0101C85.6795 38.6667 87.8434 36.5028 87.8434 33.8334C87.8434 31.1639 85.6795 29 83.0101 29H67.6809Z" fill="currentColor"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M83.0104 67.6667H67.6813C65.1174 67.6667 62.6587 68.6851 60.8457 70.498L56.8418 74.502C55.0288 76.3149 52.5701 77.3333 50.0062 77.3333H34.6771C15.9914 77.3333 0.84375 62.1857 0.84375 43.5C0.84375 24.8143 15.9914 9.66667 34.6771 9.66667H50.0062C52.5701 9.66667 55.0288 8.64828 56.8418 6.8353L60.8457 2.83129C62.6587 1.01846 65.1174 0 67.6813 0H83.0104C101.696 0 116.844 15.1477 116.844 33.8333C116.844 52.519 101.696 67.6667 83.0104 67.6667ZM67.6813 9.66667C65.1174 9.66667 62.6587 10.6851 60.8457 12.498L56.8418 16.502C55.0288 18.3149 52.5701 19.3333 50.0062 19.3333H34.6771C21.3302 19.3333 10.5104 30.1532 10.5104 43.5C10.5104 56.8468 21.3302 67.6667 34.6771 67.6667H50.0062C52.5701 67.6667 55.0288 66.6483 56.8418 64.8353L60.8457 60.8314C62.6587 59.0184 65.1174 58 67.6813 58H83.0104C96.3572 58 107.177 47.1801 107.177 33.8333C107.177 20.4866 96.3572 9.66667 83.0104 9.66667H67.6813Z" fill="currentColor"/>
 				</svg>
 			</div>
-			<span class="font-bold text-xl tracking-tight">Distill</span>
+			<span class="font-bold text-xl tracking-tight">Socrates</span>
 		</div>
 		<nav class="flex items-center gap-6 text-sm font-medium">
-			<a href="#" class="text-gray-600 hover:text-gray-900">Guide</a>
-			<a href="#" class="bg-gray-100 px-4 py-2 rounded-lg text-gray-900 hover:bg-gray-200 transition-colors">Login</a>
+			<a href="#" class="text-gray-600 hover:text-gray-900">Features</a>
+			<a href="#" class="bg-gray-100 px-4 py-2 rounded-lg text-gray-900 hover:bg-gray-200 transition-colors">Get Started</a>
 		</nav>
 	</header>
 
@@ -52,16 +52,16 @@
 		<!-- Hero Section -->
 		<section class="max-w-4xl mx-auto px-6 pt-12 pb-20 text-center">
 			<div class="inline-flex items-center gap-2 text-gray-500 text-sm mb-6">
-				{@html icons.clock}
-				<span>For macOS & iOS</span>
+				{@html icons.sparkles}
+				<span>Elegant reading for focused minds</span>
 			</div>
 			
 			<h1 class="text-5xl md:text-6xl font-bold tracking-tight text-gray-900 mb-6 leading-[1.1]">
-				Capture once. Distill forever.
+				Transform scattered reading into focused knowledge
 			</h1>
 			
 			<p class="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
-				The insight-to-action loop for people who think for a living.
+				Socrates turns the chaos of tabs and bookmarks into a beautifully curated reading experience. Save, read, and retain what matters.
 			</p>
 
 			<div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-lg mx-auto mb-16">
@@ -69,268 +69,180 @@
 					<input 
 						type="email" 
 						placeholder="Your email address" 
-						class="w-full pl-4 pr-12 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all"
+						class="w-full pl-4 pr-12 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primary-500/20 focus:border-primary-500 transition-all"
 					/>
 					<button class="absolute right-2 top-1/2 -translate-y-1/2 p-1.5 text-gray-400 hover:text-gray-600">
 						{@html icons.arrowRight}
 					</button>
 				</div>
 				<div class="text-xs text-left text-gray-500 w-full sm:w-auto shrink-0">
-					Request an invitation,<br>Distill is in limited access.
+					Join the waitlist for<br>early access
 				</div>
 			</div>
 
-			<!-- App Screenshot Placeholder -->
-			<div class="relative rounded-2xl border border-gray-200 shadow-2xl bg-white overflow-hidden aspect-[16/10] mb-12 group">
-				<!-- This represents the complex app interface -->
-				<div class="absolute inset-0 bg-gray-50 flex">
-					<!-- Sidebar -->
-					<div class="w-64 border-r border-gray-200 bg-white p-4 hidden md:flex flex-col gap-4">
-						<div class="h-8 w-full bg-gray-100 rounded animate-pulse"></div>
-						<div class="space-y-2">
-							<div class="h-4 w-3/4 bg-gray-100 rounded"></div>
-							<div class="h-4 w-1/2 bg-gray-100 rounded"></div>
-							<div class="h-4 w-5/6 bg-gray-100 rounded"></div>
-						</div>
-					</div>
-					<!-- Main Content -->
-					<div class="flex-1 p-6">
-						<div class="h-8 w-1/3 bg-gray-100 rounded mb-6"></div>
-						<div class="space-y-4">
-							<div class="h-32 w-full bg-white border border-gray-200 rounded-xl p-4 shadow-sm">
-								<div class="flex gap-3 mb-3">
-									<div class="w-8 h-8 rounded-full bg-gray-200"></div>
-									<div class="space-y-1">
-										<div class="h-3 w-24 bg-gray-200 rounded"></div>
-										<div class="h-3 w-16 bg-gray-100 rounded"></div>
-									</div>
-								</div>
-								<div class="h-2 w-full bg-gray-100 rounded mb-2"></div>
-								<div class="h-2 w-5/6 bg-gray-100 rounded"></div>
-							</div>
-							<div class="h-32 w-full bg-white border border-gray-200 rounded-xl p-4 shadow-sm"></div>
-						</div>
-					</div>
-				</div>
-				
-				<!-- Overlay text to indicate it's a screenshot -->
-				<div class="absolute inset-0 flex items-center justify-center bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
-					<span class="bg-white px-4 py-2 rounded-full shadow-sm text-sm font-medium">App Interface</span>
-				</div>
+			<!-- Hero Image -->
+			<div class="relative rounded-2xl border border-gray-200 shadow-2xl overflow-hidden aspect-[16/10] mb-12">
+				<img 
+					src="/generated/image-a-professional-knowledge-worker-at-a-mod-1765583620920-0.webp" 
+					alt="Professional using Socrates for focused reading" 
+					class="w-full h-full object-cover"
+				/>
 			</div>
 
 			<!-- Bottom Icons -->
 			<div class="flex flex-wrap justify-center gap-8 md:gap-12 text-sm font-medium text-gray-700">
 				<div class="flex items-center gap-2">
 					{@html icons.reflection}
-					<span>For reflection</span>
+					<span>Deep reading</span>
 				</div>
 				<div class="flex items-center gap-2">
-					{@html icons.productivity}
-					<span>For productivity</span>
+					{@html icons.list}
+					<span>Smart curation</span>
 				</div>
 				<div class="flex items-center gap-2">
 					{@html icons.memory}
-					<span>For memory</span>
+					<span>Knowledge retention</span>
 				</div>
 				<div class="flex items-center gap-2">
 					{@html icons.clarity}
-					<span>For clarity</span>
+					<span>Focus & clarity</span>
 				</div>
 			</div>
+		</section>
+
 		<!-- Features Grid -->
 		<section class="max-w-6xl mx-auto px-6 py-20">
 			<h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 max-w-lg leading-tight">
-				Great ideas start in quiet places, welcome to your private think space.
+				Reading reimagined for the way you think
 			</h2>
 
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 				<!-- Card 1 -->
 				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
 					<div class="mb-auto text-gray-900">
-						{@html icons.speedometer}
+						{@html icons.sparkles}
 					</div>
 					<div>
-						<h3 class="font-bold text-lg mb-2 text-gray-900">Built for flow</h3>
-						<p class="text-sm text-gray-600 leading-relaxed">Fast, modern mobile and desktop apps that work offline</p>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Elegant design</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">A beautifully minimal interface that feels premium and stays out of your way</p>
 					</div>
 				</div>
 
 				<!-- Card 2 -->
 				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
 					<div class="mb-auto text-gray-900">
-						{@html icons.shield}
+						{@html icons.maximize}
 					</div>
 					<div>
-						<h3 class="font-bold text-lg mb-2 text-gray-900">Private by design</h3>
-						<p class="text-sm text-gray-600 leading-relaxed">Stored on your device and syncs with end-to-end encryption</p>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Distraction-free</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">Clean reading experience without ads, popups, or clutter</p>
 					</div>
 				</div>
 
 				<!-- Card 3 -->
 				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
 					<div class="mb-auto text-gray-900">
-						{@html icons.sparkles}
+						{@html icons.speedometer}
 					</div>
 					<div>
-						<h3 class="font-bold text-lg mb-2 text-gray-900">Works with AI</h3>
-						<p class="text-sm text-gray-600 leading-relaxed">Intelligent agents that think with you and organize your vault</p>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Lightning fast</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">Native apps for mobile and desktop that work seamlessly offline</p>
 					</div>
 				</div>
 
 				<!-- Card 4 -->
 				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
 					<div class="mb-auto text-gray-900">
-						{@html icons.soundwave}
+						{@html icons.list}
 					</div>
 					<div>
-						<h3 class="font-bold text-lg mb-2 text-gray-900">Speak to journal</h3>
-						<p class="text-sm text-gray-600 leading-relaxed">Dictate your ideas and thoughts effortlessly</p>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Smart curation</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">Organize articles with tags, collections, and powerful search</p>
 					</div>
 				</div>
 
 				<!-- Card 5 -->
 				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
 					<div class="mb-auto text-gray-900">
-						{@html icons.plus}
+						{@html icons.link}
 					</div>
 					<div>
-						<h3 class="font-bold text-lg mb-2 text-gray-900">Capture effortlessly</h3>
-						<p class="text-sm text-gray-600 leading-relaxed">Text, links, photos, screenshots, and more</p>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Save anything</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">One-click saving from any browser or app with our extensions</p>
+					</div>
+				</div>
+
+				<!-- Card 6 -->
+				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
+					<div class="mb-auto text-gray-900">
+						{@html icons.shield}
+					</div>
+					<div>
+						<h3 class="font-bold text-lg mb-2 text-gray-900">Always synced</h3>
+						<p class="text-sm text-gray-600 leading-relaxed">Your reading list stays in sync across all your devices</p>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- Think Tank Section -->
+		<!-- Reading Experience Section -->
 		<section class="max-w-6xl mx-auto px-6 py-20">
 			<div class="mb-16">
-				<span class="inline-block bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-6">
-					With best-in-class AI
+				<span class="inline-block bg-primary-100 text-primary-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-6">
+					Reading Experience
 				</span>
-				<h2 class="text-4xl md:text-5xl font-bold text-purple-900 mb-6 tracking-tight">
-					Your personal think tank
+				<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
+					Built for deep reading
 				</h2>
 				<p class="text-xl text-gray-600 max-w-2xl leading-relaxed">
-					Intelligent agents that organize and enhance your thinking. Your intellectual force multiplier.
+					Every detail designed to help you focus on what matters—the content. No distractions, just pure reading.
 				</p>
 			</div>
 
-			<div class="bg-purple-50 rounded-3xl p-8 md:p-12 mb-16">
+			<div class="bg-primary-50/30 rounded-3xl p-8 md:p-12 mb-16">
 				<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-					<!-- Left Visual: Nova Agent -->
-					<div class="relative bg-white rounded-2xl shadow-lg p-6 overflow-hidden min-h-[300px]">
-						<div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-purple-500 to-pink-500"></div>
-						<div class="flex items-center gap-3 mb-6">
-							<div class="w-10 h-10 rounded-full bg-gradient-to-br from-purple-600 to-orange-400 flex items-center justify-center text-white font-bold text-xs">
-								N
-							</div>
-							<div>
-								<div class="font-bold text-gray-900">Nova</div>
-								<div class="text-xs text-purple-600 font-medium uppercase tracking-wider">The Playful Explorer</div>
-							</div>
-						</div>
-						<div class="space-y-4 text-sm">
-							<div class="bg-purple-50 p-4 rounded-xl rounded-tl-none text-gray-800">
-								I approach life like one big fascinating experiment, asking "what if" questions that make people see things in completely new ways. I believe play and humor are powerful tools for breaking through mental barriers.
-							</div>
-							<div class="flex gap-2">
-								<span class="bg-purple-900 text-white px-3 py-1 rounded-full text-xs font-medium">Extraverted</span>
-								<span class="bg-purple-900 text-white px-3 py-1 rounded-full text-xs font-medium">Intuitive</span>
-							</div>
-							<div class="flex gap-2">
-								<span class="bg-purple-900 text-white px-3 py-1 rounded-full text-xs font-medium">Thinking</span>
-								<span class="bg-purple-900 text-white px-3 py-1 rounded-full text-xs font-medium">Perceiving</span>
-							</div>
-						</div>
-						<div class="mt-6">
-							<button class="w-full py-2 border border-purple-200 text-purple-700 font-medium rounded-lg hover:bg-purple-50 transition-colors">
-								Add to vault
-							</button>
-						</div>
+					<!-- Left Visual: Mobile Reading -->
+					<div class="relative bg-white rounded-2xl shadow-lg overflow-hidden min-h-[300px]">
+						<img 
+							src="/generated/image-close-up-of-hands-holding-a-smartphone-d-1765583623714-1.webp" 
+							alt="Elegant mobile reading interface" 
+							class="w-full h-full object-cover"
+						/>
 					</div>
 
-					<!-- Right Visual: Chat Interface -->
-					<div class="bg-white rounded-2xl shadow-lg p-6 min-h-[300px] flex flex-col">
-						<div class="flex items-center gap-2 mb-4 text-xs text-gray-400 border-b border-gray-100 pb-2 overflow-hidden whitespace-nowrap">
-							<div class="w-2 h-2 rounded-full bg-gray-300"></div>
-							<span>https://nabeelqu.substack.com/p/reflections-on-palantir</span>
-						</div>
-						<div class="flex-1 space-y-4">
-							<div class="border border-gray-100 rounded-lg p-4">
-								<h4 class="font-bold text-gray-900 text-sm mb-1">Reflections on Palantir</h4>
-								<div class="text-xs text-gray-500 mb-2">nabeelqu.substack.com</div>
-								<p class="text-xs text-gray-600 line-clamp-3">
-									Chronos shares five on-site stories—from mapping Afghan IEDs to fixing Airbus delays—that show Palantir teams hacking bespoke fixes, then baking them into reusable Foundry modules.
-								</p>
-							</div>
-							<div class="flex gap-2 items-center text-xs text-gray-500">
-								<div class="flex -space-x-2">
-									<div class="w-6 h-6 rounded-full bg-gray-200 border-2 border-white"></div>
-									<div class="w-6 h-6 rounded-full bg-gray-300 border-2 border-white"></div>
-								</div>
-								<span>Lens and Chronos</span>
-							</div>
-							<div class="space-y-3 pt-2">
-								<div class="flex gap-3">
-									<div class="w-6 h-6 rounded-full bg-gray-800 shrink-0"></div>
-									<div class="text-xs text-gray-800">
-										<p class="font-bold mb-1">tell me everything about rene descartes</p>
-									</div>
-								</div>
-								<div class="flex gap-3">
-									<div class="w-6 h-6 rounded-full bg-teal-500 shrink-0"></div>
-									<div class="text-xs text-gray-600 bg-gray-50 p-3 rounded-lg rounded-tl-none">
-										<p>AI for physical action: doubt filter, cogito reset, clarify rewrite, first-principles ladder, axis plotting, mind-body separation.</p>
-									</div>
-								</div>
-							</div>
-						</div>
+					<!-- Right Visual: Desktop Reading -->
+					<div class="relative bg-white rounded-2xl shadow-lg overflow-hidden min-h-[300px]">
+						<img 
+							src="/generated/image-a-curated-collection-of-articles-display-1765583625976-2.webp" 
+							alt="Organized article collection" 
+							class="w-full h-full object-cover"
+						/>
 					</div>
 				</div>
 
-				<!-- Bottom Visual: Input Processing -->
+				<!-- Bottom Visual: Save & Organize -->
 				<div class="bg-white rounded-2xl shadow-lg p-6 md:p-8">
-					<div class="relative mb-8">
-						<input type="text" value="What are you thinking?" class="w-full bg-gray-50 border-none rounded-xl py-4 pl-12 pr-4 text-gray-500 focus:ring-0" readonly />
-						<div class="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
-							{@html icons.camera}
+					<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+						<div class="text-center">
+							<div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-3">
+								{@html icons.link}
+							</div>
+							<h5 class="font-bold text-gray-900 mb-2">Save from anywhere</h5>
+							<p class="text-xs text-gray-600">Browser extensions, mobile share sheet, or email forwarding</p>
 						</div>
-						<div class="absolute right-4 top-1/2 -translate-y-1/2 flex gap-2 text-gray-400">
-							{@html icons.mic}
-							{@html icons.download}
+						<div class="text-center">
+							<div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-3">
+								{@html icons.list}
+							</div>
+							<h5 class="font-bold text-gray-900 mb-2">Auto-organize</h5>
+							<p class="text-xs text-gray-600">Smart collections and tags keep everything organized automatically</p>
 						</div>
-					</div>
-
-					<div class="flex justify-center mb-8">
-						<span class="bg-gray-100 text-gray-500 text-xs px-3 py-1 rounded-full">gpt-5 is out! should we switch you to it?</span>
-					</div>
-
-					<div class="bg-purple-50/50 rounded-xl p-6 border border-purple-100">
-						<div class="space-y-3">
-							<div class="flex items-center gap-3">
-								<div class="w-3 h-3 rounded-full bg-pink-500 animate-pulse"></div>
-								<span class="text-sm text-gray-700">Nova is working</span>
+						<div class="text-center">
+							<div class="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-3">
+								{@html icons.search}
 							</div>
-							<div class="flex items-start gap-3">
-								<div class="w-3 h-3 rounded-full bg-green-500 mt-1"></div>
-								<div class="text-sm text-gray-700">
-									<span class="font-medium">Nova is scanning</span> 
-									<span class="font-bold bg-white px-1 rounded border border-gray-200 mx-1">132 recent entries</span> 
-									to understand your context and checking 
-									<span class="font-bold bg-white px-1 rounded border border-gray-200 mx-1">8 lists</span> 
-									for relevant topics.
-									<p class="text-xs text-gray-500 mt-1 max-w-md">Found mentions of ChatGPT in your vault for additional context. Distill is using AI to analyze patterns and suggest relevant connections.</p>
-								</div>
-							</div>
-							<div class="flex items-center gap-3">
-								<div class="w-3 h-3 rounded-full bg-green-500"></div>
-								<span class="text-sm text-gray-700">Added entry to <span class="bg-purple-500 text-white px-2 py-0.5 rounded text-xs font-bold">ideas</span></span>
-							</div>
-							<div class="flex items-center gap-3">
-								<div class="w-3 h-3 rounded-full border-2 border-gray-300 border-t-gray-500 animate-spin"></div>
-								<span class="text-sm text-gray-500">Searching the web for <span class="text-blue-500">openai gpt-5</span></span>
-							</div>
+							<h5 class="font-bold text-gray-900 mb-2">Find instantly</h5>
+							<p class="text-xs text-gray-600">Powerful full-text search across all your saved articles</p>
 						</div>
 					</div>
 				</div>
@@ -338,132 +250,117 @@
 
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-4 max-w-4xl">
 				<p class="text-xl text-gray-600 mb-6 md:col-span-2 leading-relaxed">
-					They watch your threads, spot patterns, and do the groundwork you don't have time for—mapping connections, organizing lists, and surfacing the right context on cue.
+					Socrates removes friction from your reading workflow, so you can focus on learning and retaining what matters.
 				</p>
 				
 				<div class="space-y-4">
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
-						{@html icons.sparkles}
-						<span>Agents engage with you</span>
+					<div class="flex items-center gap-3 text-gray-800 font-medium">
+						{@html icons.maximize}
+						<span>Distraction-free reader</span>
 					</div>
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
-						{@html icons.target}
-						<span>Guide you towards your goals</span>
+					<div class="flex items-center gap-3 text-gray-800 font-medium">
+						{@html icons.reflection}
+						<span>Highlight & annotate</span>
 					</div>
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
-						{@html icons.plus}
-						<span>Auto-organize entries into lists</span>
+					<div class="flex items-center gap-3 text-gray-800 font-medium">
+						{@html icons.speedometer}
+						<span>Offline reading</span>
 					</div>
 				</div>
 
 				<div class="space-y-4">
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
-						{@html icons.layout}
-						<span>Connect the dots across threads</span>
+					<div class="flex items-center gap-3 text-gray-800 font-medium">
+						{@html icons.list}
+						<span>Smart collections</span>
 					</div>
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
-						{@html icons.maximize}
-						<span>Read and summarize links</span>
+					<div class="flex items-center gap-3 text-gray-800 font-medium">
+						{@html icons.search}
+						<span>Full-text search</span>
 					</div>
-					<div class="flex items-center gap-3 text-purple-800 font-medium">
-						{@html icons.externalLink}
-						<span>Sees your screenshots</span>
+					<div class="flex items-center gap-3 text-gray-800 font-medium">
+						{@html icons.shield}
+						<span>Cross-device sync</span>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- Insights to Action Section -->
+		<!-- Curation Section -->
 		<section class="max-w-6xl mx-auto px-6 py-20">
 			<div class="mb-16">
-				<span class="inline-block bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-6">
-					Planner
+				<span class="inline-block bg-gray-900 text-white px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide mb-6">
+					Organization
 				</span>
-				<h2 class="text-4xl md:text-5xl font-bold text-orange-900 mb-6 tracking-tight">
-					From insights to action
+				<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
+					Your personal knowledge library
 				</h2>
 				<p class="text-xl text-gray-600 max-w-2xl leading-relaxed">
-					Agents help you break plans down, manage todos, and keep everything moving.
+					Organize articles into collections, tag for easy discovery, and build a searchable archive of everything you've read.
 				</p>
 			</div>
 
-			<div class="bg-orange-50 rounded-3xl p-8 md:p-12 mb-16">
+			<div class="bg-gray-50 rounded-3xl p-8 md:p-12 mb-16">
 				<div class="bg-white rounded-2xl shadow-sm p-6 md:p-8 max-w-3xl mx-auto">
 					<!-- Stats -->
 					<div class="grid grid-cols-4 gap-4 mb-8">
-						<div class="bg-green-100 p-3 rounded-xl">
-							<div class="text-xs font-bold text-green-800 mb-1">Today</div>
-							<div class="text-2xl font-bold text-green-900">5</div>
-						</div>
-						<div class="bg-orange-100 p-3 rounded-xl">
-							<div class="text-xs font-bold text-orange-800 mb-1">Scheduled</div>
-							<div class="text-2xl font-bold text-orange-900">51</div>
+						<div class="bg-primary-100 p-3 rounded-xl">
+							<div class="text-xs font-bold text-primary-800 mb-1">Unread</div>
+							<div class="text-2xl font-bold text-primary-900">47</div>
 						</div>
 						<div class="bg-gray-100 p-3 rounded-xl">
-							<div class="text-xs font-bold text-gray-600 mb-1">All</div>
-							<div class="text-2xl font-bold text-gray-900">56</div>
+							<div class="text-xs font-bold text-gray-600 mb-1">Reading</div>
+							<div class="text-2xl font-bold text-gray-900">3</div>
 						</div>
 						<div class="bg-gray-100 p-3 rounded-xl">
-							<div class="text-xs font-bold text-gray-600 mb-1">Completed</div>
-							<div class="text-2xl font-bold text-gray-900">70</div>
+							<div class="text-xs font-bold text-gray-600 mb-1">Archived</div>
+							<div class="text-2xl font-bold text-gray-900">284</div>
+						</div>
+						<div class="bg-gray-100 p-3 rounded-xl">
+							<div class="text-xs font-bold text-gray-600 mb-1">Favorites</div>
+							<div class="text-2xl font-bold text-gray-900">18</div>
 						</div>
 					</div>
 
-					<!-- Task List -->
+					<!-- Collections List -->
 					<div class="space-y-6">
 						<div>
-							<div class="text-xs font-bold text-red-500 mb-2 tracking-wide">OVERDUE</div>
-							<div class="flex gap-4 items-start group">
-								<div class="mt-1 w-5 h-5 rounded-full border-2 border-red-500 flex items-center justify-center cursor-pointer"></div>
-								<div class="flex-1">
-									<h4 class="font-bold text-gray-900">Review quarterly budget report</h4>
-									<p class="text-xs text-gray-500 mt-1">Review and provide feedback on the Q4 budget analysis prepared by the finance team.</p>
-									<div class="text-xs text-red-500 mt-1 font-medium">YESTERDAY · 2:00 PM</div>
-								</div>
-							</div>
-						</div>
-
-						<div>
-							<div class="text-xs font-bold text-red-500 mb-2 tracking-wide">TODAY</div>
-							<div class="flex gap-4 items-start group">
-								<div class="mt-1 w-5 h-5 rounded-full border-2 border-gray-300 group-hover:border-gray-400 cursor-pointer"></div>
-								<div class="flex-1">
-									<h4 class="font-bold text-gray-900">40-min Zone-2 jog / easy spin</h4>
-									<p class="text-xs text-gray-500 mt-1">Perform a 40-minute Zone-2 jog or easy spin. Maintain a pace where you can converse in full sentences.</p>
-									<div class="flex gap-2 text-xs text-gray-400 mt-1">
-										<span>TODAY · 06:00 AM</span>
-										<span>•</span>
-										<span class="flex items-center gap-1">{@html icons.repeat} REPEATS WEEKLY</span>
+							<div class="text-xs font-bold text-primary-600 mb-3 tracking-wide">COLLECTIONS</div>
+							<div class="space-y-3">
+								<div class="flex gap-4 items-center p-3 rounded-lg hover:bg-gray-50 cursor-pointer">
+									<div class="w-10 h-10 rounded-lg bg-primary-100 flex items-center justify-center">
+										<span class="text-lg">📚</span>
+									</div>
+									<div class="flex-1">
+										<h4 class="font-bold text-gray-900">Product Design</h4>
+										<p class="text-xs text-gray-500">24 articles</p>
 									</div>
 								</div>
-							</div>
-						</div>
-
-						<div>
-							<div class="flex gap-4 items-start group">
-								<div class="mt-1 w-5 h-5 rounded-full border-2 border-blue-500 cursor-pointer"></div>
-								<div class="flex-1">
-									<h4 class="font-bold text-gray-900">Team standup meeting</h4>
-									<p class="text-xs text-gray-500 mt-1">Daily sync with the team to discuss progress and blockers.</p>
-									<div class="text-xs text-gray-400 mt-1">TODAY · 9:00 AM</div>
+								<div class="flex gap-4 items-center p-3 rounded-lg hover:bg-gray-50 cursor-pointer">
+									<div class="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center">
+										<span class="text-lg">💼</span>
+									</div>
+									<div class="flex-1">
+										<h4 class="font-bold text-gray-900">Startup Strategy</h4>
+										<p class="text-xs text-gray-500">18 articles</p>
+									</div>
 								</div>
-							</div>
-						</div>
-
-						<div>
-							<div class="text-xs font-bold text-gray-400 mb-2 tracking-wide">NO DUE DATE</div>
-							<div class="space-y-3 opacity-60">
-								<div class="flex gap-4 items-center">
-									<div class="w-5 h-5 rounded-full border-2 border-gray-300"></div>
-									<span class="text-sm text-gray-600">Draft the first cut — 90-min rough draft block</span>
+								<div class="flex gap-4 items-center p-3 rounded-lg hover:bg-gray-50 cursor-pointer">
+									<div class="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center">
+										<span class="text-lg">🧠</span>
+									</div>
+									<div class="flex-1">
+										<h4 class="font-bold text-gray-900">Psychology & Behavior</h4>
+										<p class="text-xs text-gray-500">31 articles</p>
+									</div>
 								</div>
-								<div class="flex gap-4 items-center">
-									<div class="w-5 h-5 rounded-full border-2 border-gray-300"></div>
-									<span class="text-sm text-gray-600">Feedback loop — sit with Alex and refine the draft</span>
-								</div>
-								<div class="flex gap-4 items-center">
-									<div class="w-5 h-5 rounded-full border-2 border-gray-300"></div>
-									<span class="text-sm text-gray-600">Badminton practice</span>
+								<div class="flex gap-4 items-center p-3 rounded-lg hover:bg-gray-50 cursor-pointer">
+									<div class="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center">
+										<span class="text-lg">⚡</span>
+									</div>
+									<div class="flex-1">
+										<h4 class="font-bold text-gray-900">Technology Trends</h4>
+										<p class="text-xs text-gray-500">42 articles</p>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -474,20 +371,20 @@
 			<div class="flex flex-col md:flex-row gap-8 md:items-start justify-between">
 				<div class="flex gap-6 text-sm font-medium text-gray-600">
 					<div class="flex items-center gap-2">
-						{@html icons.check}
-						<span>Checklists</span>
+						{@html icons.list}
+						<span>Collections</span>
 					</div>
 					<div class="flex items-center gap-2">
-						{@html icons.calendar}
-						<span>Scheduled events</span>
+						{@html icons.target}
+						<span>Tags</span>
 					</div>
 					<div class="flex items-center gap-2">
-						{@html icons.repeat}
-						<span>Repeating tasks</span>
+						{@html icons.search}
+						<span>Search</span>
 					</div>
 				</div>
 				<p class="text-xl text-gray-600 max-w-lg leading-relaxed">
-					Capture an idea, sketch a plan, or think out loud—your agents turn it into an actionable roadmap without disrupting your flow.
+					Build a personal knowledge base that grows with you. Every article saved, organized, and ready when you need it.
 				</p>
 			</div>
 		</section>
@@ -499,70 +396,88 @@
 					Use cases
 				</span>
 				<h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 tracking-tight">
-					Who uses it?
+					Perfect for knowledge workers
 				</h2>
 				<p class="text-xl text-gray-600 max-w-2xl leading-relaxed">
-					Distill works for anyone who needs to keep their best thinking alive- from executives to researchers to creators.
+					Socrates helps professionals stay on top of their reading without the chaos of scattered tabs and bookmarks.
 				</p>
 			</div>
 
 			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
 				<!-- Card 1 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Decision logging</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Record key choices and the reasoning behind them, so you can revisit the "why" at any time.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Industry research</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Stay current with trends and insights in your field without drowning in tabs.</p>
 				</div>
 				<!-- Card 2 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Idea tracking</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Capture sparks of inspiration before they fade and connect them to ongoing work.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Competitive analysis</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Collect and organize articles about competitors and market movements.</p>
 				</div>
 				<!-- Card 3 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Weekly reviews</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Reflect on the past week's shifts, wins, and challenges to plan your next moves.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Learning & development</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Build a curated library of resources for skill development and growth.</p>
 				</div>
 				<!-- Card 4 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Story building</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Develop narratives or arguments over time by adding and refining entries in a thread.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Content inspiration</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Save examples and ideas that inspire your own writing and creation.</p>
 				</div>
 
 				<!-- Card 5 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Progress tracking</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Keep a living record of milestones, blockers, and updates across projects.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Product research</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Gather insights about user needs, design patterns, and best practices.</p>
 				</div>
 				<!-- Card 6 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Goal setting</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Define clear objectives and keep them visible as your work evolves.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Investment research</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Track market analysis, company profiles, and financial insights.</p>
 				</div>
 				<!-- Card 7 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Action planning</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Turn insights and ideas into a prioritized list of next steps.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Academic reading</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Organize papers, articles, and research materials for your studies.</p>
 				</div>
 				<!-- Card 8 -->
 				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Strategy reviews</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Assess current direction by surfacing shifts, risks, and opportunities.</p>
+					<h3 class="font-bold text-gray-900 mb-2">Newsletter curation</h3>
+					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Save the best articles from your favorite newsletters in one place.</p>
 				</div>
+			</div>
+		</section>
 
-				<!-- Card 9 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Research synthesis</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Convert scattered findings into clear, connected insights.</p>
-				</div>
-				<!-- Card 10 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Meeting prep</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Walk into discussions with the relevant context and decisions at hand.</p>
-				</div>
-				<!-- Card 11 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
-					<h3 class="font-bold text-gray-900 mb-2">Content outlining</h3>
-					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Shape captured thoughts into structured drafts for writing or presentations.</p>
+		<!-- Final CTA Section -->
+		<section class="max-w-6xl mx-auto px-6 py-20">
+			<div class="bg-gray-950 rounded-3xl overflow-hidden">
+				<div class="grid grid-cols-1 md:grid-cols-2">
+					<div class="p-8 md:p-12 flex flex-col justify-center">
+						<h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+							Start reading with focus
+						</h2>
+						<p class="text-lg text-gray-300 mb-8">
+							Join design-conscious professionals who've transformed their reading habits with Socrates.
+						</p>
+						<div class="flex flex-col sm:flex-row gap-4">
+							<input 
+								type="email" 
+								placeholder="Your email address" 
+								class="flex-1 px-4 py-3 rounded-lg border border-gray-700 bg-gray-900 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-primary-500/50 focus:border-primary-500"
+							/>
+							<button class="bg-primary-500 hover:bg-primary-600 text-white font-medium px-6 py-3 rounded-lg transition-colors">
+								Get Started
+							</button>
+						</div>
+						<p class="text-xs text-gray-500 mt-4">Free 14-day trial. No credit card required.</p>
+					</div>
+					<div class="hidden md:block">
+						<img 
+							src="/generated/image-a-young-professional-commuting-on-public-1765583628400-3.webp" 
+							alt="Professional reading on mobile" 
+							class="w-full h-full object-cover"
+						/>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -574,19 +489,19 @@
 					<h4 class="font-bold text-sm text-gray-900 mb-4">Resources</h4>
 					<div class="grid grid-cols-2 gap-x-8 gap-y-3 text-xs text-gray-600">
 						<a href="#" class="flex items-center gap-2 hover:text-gray-900">
-							{@html icons.sparkles} The augmented thinker
+							{@html icons.reflection} Reading guide
 						</a>
 						<a href="#" class="flex items-center gap-2 hover:text-gray-900">
-							{@html icons.plus} Getting started with Distill
+							{@html icons.plus} Getting started
 						</a>
 						<a href="#" class="flex items-center gap-2 hover:text-gray-900">
-							{@html icons.download} Import to Distill
+							{@html icons.download} Browser extensions
 						</a>
 						<a href="#" class="flex items-center gap-2 hover:text-gray-900">
-							{@html icons.target} Make your own agents
+							{@html icons.list} Organizing tips
 						</a>
 						<a href="#" class="flex items-center gap-2 hover:text-gray-900">
-							{@html icons.reflection} Building a journaling habit
+							{@html icons.sparkles} Feature updates
 						</a>
 					</div>
 				</div>
@@ -595,12 +510,13 @@
 			<div class="flex flex-col md:flex-row justify-between items-center mt-12 pt-8 text-xs text-gray-400">
 				<div class="flex items-center gap-2 mb-4 md:mb-0">
 					<div class="w-6 h-6 text-gray-300">
-						<svg viewBox="0 0 24 24" fill="currentColor" class="w-full h-full">
-							<path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM12 22C10.9 22 10 21.1 10 20C10 18.9 10.9 18 12 18C13.1 18 14 18.9 14 20C14 21.1 13.1 22 12 22ZM6 12C6 10.9 5.1 10 4 10C2.9 10 2 10.9 2 12C2 13.1 2.9 14 4 14C5.1 14 6 13.1 6 12ZM22 12C22 13.1 21.1 14 20 14C18.9 14 18 13.1 18 12C18 10.9 18.9 10 20 10C21.1 10 22 10.9 22 12ZM17.66 7.34C18.44 6.56 19.7 6.56 20.48 7.34C21.26 8.12 21.26 9.38 20.48 10.16C19.7 10.94 18.44 10.94 17.66 10.16C16.88 9.38 16.88 8.12 17.66 7.34ZM6.34 16.66C5.56 17.44 4.3 17.44 3.52 16.66C2.74 15.88 2.74 14.62 3.52 13.84C4.3 13.06 5.56 13.06 6.34 13.84C7.12 14.62 7.12 15.88 6.34 16.66ZM16.66 17.66C15.88 18.44 15.88 19.7 16.66 20.48C17.44 21.26 18.7 21.26 19.48 20.48C20.26 19.7 20.26 18.44 19.48 17.66C18.7 16.88 18.7 15.62 17.92 14.84L16.66 17.66ZM7.34 6.34C8.12 5.56 8.12 4.3 7.34 3.52C6.56 2.74 5.3 2.74 4.52 3.52C3.74 4.3 3.74 5.56 4.52 6.34C5.3 7.12 6.56 7.12 7.34 6.34Z" />
+						<svg width="24" height="16" viewBox="0 0 117 78" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M83.0101 48.3334H67.6809C65.1171 48.3334 62.6584 49.3518 60.8454 51.1647L56.8415 55.1687C55.0285 56.9817 52.5698 58 50.0059 58H34.6768C26.6686 58 20.1768 51.5081 20.1768 43.5C20.1768 35.4919 26.6686 29 34.6768 29H50.0059C52.5698 29 55.0285 27.9817 56.8415 26.1687L60.8454 22.1647C62.6584 20.3518 65.1171 19.3334 67.6809 19.3334H83.0101C91.0182 19.3334 97.5101 25.8253 97.5101 33.8334C97.5101 41.8415 91.0182 48.3334 83.0101 48.3334ZM67.6809 29C65.1171 29 62.6584 30.0184 60.8454 31.8314L56.8415 35.8353C55.0285 37.6483 52.5698 38.6667 50.0059 38.6667H34.6768C32.0073 38.6667 29.8434 40.8306 29.8434 43.5C29.8434 46.1695 32.0073 48.3334 34.6768 48.3334H50.0059C52.5698 48.3334 55.0285 47.315 56.8415 45.502L60.8454 41.4981C62.6584 39.6851 65.1171 38.6667 67.6809 38.6667H83.0101C85.6795 38.6667 87.8434 36.5028 87.8434 33.8334C87.8434 31.1639 85.6795 29 83.0101 29H67.6809Z" fill="currentColor"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M83.0104 67.6667H67.6813C65.1174 67.6667 62.6587 68.6851 60.8457 70.498L56.8418 74.502C55.0288 76.3149 52.5701 77.3333 50.0062 77.3333H34.6771C15.9914 77.3333 0.84375 62.1857 0.84375 43.5C0.84375 24.8143 15.9914 9.66667 34.6771 9.66667H50.0062C52.5701 9.66667 55.0288 8.64828 56.8418 6.8353L60.8457 2.83129C62.6587 1.01846 65.1174 0 67.6813 0H83.0104C101.696 0 116.844 15.1477 116.844 33.8333C116.844 52.519 101.696 67.6667 83.0104 67.6667ZM67.6813 9.66667C65.1174 9.66667 62.6587 10.6851 60.8457 12.498L56.8418 16.502C55.0288 18.3149 52.5701 19.3333 50.0062 19.3333H34.6771C21.3302 19.3333 10.5104 30.1532 10.5104 43.5C10.5104 56.8468 21.3302 67.6667 34.6771 67.6667H50.0062C52.5701 67.6667 55.0288 66.6483 56.8418 64.8353L60.8457 60.8314C62.6587 59.0184 65.1174 58 67.6813 58H83.0104C96.3572 58 107.177 47.1801 107.177 33.8333C107.177 20.4866 96.3572 9.66667 83.0104 9.66667H67.6813Z" fill="currentColor"/>
 						</svg>
 					</div>
 					<div>
-						<p>Copyright © 2025 UNMS Technologies Corp.</p>
+						<p>Copyright © 2025 Socrates</p>
 						<p>All rights reserved. Terms of Service & Privacy Policy.</p>
 					</div>
 				</div>

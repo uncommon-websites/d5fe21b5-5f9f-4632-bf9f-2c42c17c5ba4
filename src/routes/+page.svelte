@@ -87,6 +87,44 @@
 					alt="Professional using Socrates for focused reading" 
 					class="w-full h-full object-cover"
 				/>
+				
+				<!-- Floating UI Elements -->
+				<!-- Save Article Card - Top Left -->
+				<div class="absolute top-6 left-6 bg-white/95 backdrop-blur-sm rounded-xl border border-gray-200 p-4 shadow-lg max-w-[280px] hidden md:block">
+					<div class="flex items-start gap-3">
+						<div class="w-10 h-10 bg-primary-100 rounded-lg flex items-center justify-center shrink-0">
+							{@html icons.link}
+						</div>
+						<div class="flex-1 min-w-0">
+							<div class="text-xs font-bold text-gray-900 mb-1">Article saved</div>
+							<div class="text-xs text-gray-600 truncate">The Future of Knowledge Work</div>
+							<div class="flex gap-2 mt-2">
+								<span class="text-xs bg-primary-100 text-primary-700 px-2 py-0.5 rounded">Design</span>
+								<span class="text-xs bg-gray-100 text-gray-700 px-2 py-0.5 rounded">Research</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Reading Progress - Bottom Right -->
+				<div class="absolute bottom-6 right-6 bg-white/95 backdrop-blur-sm rounded-xl border border-gray-200 p-4 shadow-lg hidden md:block">
+					<div class="flex items-center gap-3">
+						<div class="w-12 h-12 rounded-full border-4 border-primary-500 border-t-transparent animate-spin" style="animation-duration: 3s;"></div>
+						<div>
+							<div class="text-xs font-bold text-gray-900">Reading progress</div>
+							<div class="text-xs text-gray-600">67% complete · 4 min left</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Keyboard Shortcut Hint - Top Right -->
+				<div class="absolute top-6 right-6 bg-gray-900/90 backdrop-blur-sm rounded-lg px-3 py-2 shadow-lg hidden lg:block">
+					<div class="flex items-center gap-2 text-white text-xs">
+						<kbd class="bg-white/20 px-2 py-1 rounded text-xs font-mono">⌘</kbd>
+						<kbd class="bg-white/20 px-2 py-1 rounded text-xs font-mono">S</kbd>
+						<span class="text-gray-300">to save</span>
+					</div>
+				</div>
 			</div>
 
 			<!-- Bottom Icons -->
@@ -118,7 +156,7 @@
 
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 				<!-- Card 1 -->
-				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
+				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64 relative overflow-hidden">
 					<div class="mb-auto text-gray-900">
 						{@html icons.sparkles}
 					</div>
@@ -126,10 +164,18 @@
 						<h3 class="font-bold text-lg mb-2 text-gray-900">Elegant design</h3>
 						<p class="text-sm text-gray-600 leading-relaxed">A beautifully minimal interface that feels premium and stays out of your way</p>
 					</div>
+					<!-- Typography Controls Overlay -->
+					<div class="absolute top-4 right-4 bg-white rounded-lg border border-gray-200 p-2 shadow-sm">
+						<div class="flex gap-1">
+							<button class="w-6 h-6 flex items-center justify-center text-xs font-bold text-gray-400 hover:text-gray-900">A</button>
+							<button class="w-6 h-6 flex items-center justify-center text-sm font-bold text-gray-900">A</button>
+							<button class="w-6 h-6 flex items-center justify-center text-base font-bold text-gray-400 hover:text-gray-900">A</button>
+						</div>
+					</div>
 				</div>
 
 				<!-- Card 2 -->
-				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
+				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64 relative overflow-hidden">
 					<div class="mb-auto text-gray-900">
 						{@html icons.maximize}
 					</div>
@@ -137,10 +183,14 @@
 						<h3 class="font-bold text-lg mb-2 text-gray-900">Distraction-free</h3>
 						<p class="text-sm text-gray-600 leading-relaxed">Clean reading experience without ads, popups, or clutter</p>
 					</div>
+					<!-- Focus Mode Indicator -->
+					<div class="absolute top-4 right-4 bg-primary-500 text-white rounded-full px-3 py-1 text-xs font-medium shadow-sm">
+						Focus mode
+					</div>
 				</div>
 
 				<!-- Card 3 -->
-				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
+				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64 relative overflow-hidden">
 					<div class="mb-auto text-gray-900">
 						{@html icons.speedometer}
 					</div>
@@ -148,10 +198,15 @@
 						<h3 class="font-bold text-lg mb-2 text-gray-900">Lightning fast</h3>
 						<p class="text-sm text-gray-600 leading-relaxed">Native apps for mobile and desktop that work seamlessly offline</p>
 					</div>
+					<!-- Offline Indicator -->
+					<div class="absolute bottom-4 right-4 flex items-center gap-2 bg-white rounded-lg border border-gray-200 px-3 py-1.5 shadow-sm">
+						<div class="w-2 h-2 bg-green-500 rounded-full"></div>
+						<span class="text-xs font-medium text-gray-700">Offline ready</span>
+					</div>
 				</div>
 
 				<!-- Card 4 -->
-				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
+				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64 relative overflow-hidden">
 					<div class="mb-auto text-gray-900">
 						{@html icons.list}
 					</div>
@@ -159,10 +214,16 @@
 						<h3 class="font-bold text-lg mb-2 text-gray-900">Smart curation</h3>
 						<p class="text-sm text-gray-600 leading-relaxed">Organize articles with tags, collections, and powerful search</p>
 					</div>
+					<!-- Tag Selector -->
+					<div class="absolute top-4 right-4 flex flex-wrap gap-1 max-w-[120px]">
+						<span class="text-xs bg-white border border-gray-200 text-gray-700 px-2 py-0.5 rounded">Design</span>
+						<span class="text-xs bg-white border border-gray-200 text-gray-700 px-2 py-0.5 rounded">Tech</span>
+						<span class="text-xs bg-white border border-gray-200 text-gray-400 px-2 py-0.5 rounded">+3</span>
+					</div>
 				</div>
 
 				<!-- Card 5 -->
-				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
+				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64 relative overflow-hidden">
 					<div class="mb-auto text-gray-900">
 						{@html icons.link}
 					</div>
@@ -170,16 +231,34 @@
 						<h3 class="font-bold text-lg mb-2 text-gray-900">Save anything</h3>
 						<p class="text-sm text-gray-600 leading-relaxed">One-click saving from any browser or app with our extensions</p>
 					</div>
+					<!-- Browser Extension Badge -->
+					<div class="absolute top-4 right-4 bg-white rounded-lg border border-gray-200 p-2 shadow-sm">
+						<div class="flex items-center gap-1.5">
+							<div class="w-4 h-4 bg-primary-500 rounded-sm"></div>
+							<span class="text-xs font-medium text-gray-700">Chrome</span>
+						</div>
+					</div>
 				</div>
 
 				<!-- Card 6 -->
-				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64">
+				<div class="bg-gray-50 p-8 rounded-2xl flex flex-col items-start h-64 relative overflow-hidden">
 					<div class="mb-auto text-gray-900">
 						{@html icons.shield}
 					</div>
 					<div>
 						<h3 class="font-bold text-lg mb-2 text-gray-900">Always synced</h3>
 						<p class="text-sm text-gray-600 leading-relaxed">Your reading list stays in sync across all your devices</p>
+					</div>
+					<!-- Sync Status -->
+					<div class="absolute top-4 right-4 flex flex-col gap-1">
+						<div class="flex items-center gap-1.5 bg-white rounded-lg border border-gray-200 px-2 py-1 shadow-sm">
+							<div class="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
+							<span class="text-xs text-gray-600">Mac</span>
+						</div>
+						<div class="flex items-center gap-1.5 bg-white rounded-lg border border-gray-200 px-2 py-1 shadow-sm">
+							<div class="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
+							<span class="text-xs text-gray-600">iPhone</span>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -208,6 +287,23 @@
 							alt="Elegant mobile reading interface" 
 							class="w-full h-full object-cover"
 						/>
+						<!-- Reading Controls Overlay -->
+						<div class="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-sm rounded-xl border border-gray-200 p-3 shadow-lg">
+							<div class="flex items-center justify-between mb-2">
+								<span class="text-xs font-medium text-gray-600">Reading time: 8 min</span>
+								<div class="flex gap-2">
+									<button class="w-7 h-7 flex items-center justify-center bg-gray-100 rounded-lg text-gray-600 hover:bg-gray-200">
+										{@html icons.reflection}
+									</button>
+									<button class="w-7 h-7 flex items-center justify-center bg-primary-100 rounded-lg text-primary-600">
+										{@html icons.sparkles}
+									</button>
+								</div>
+							</div>
+							<div class="w-full bg-gray-200 rounded-full h-1.5">
+								<div class="bg-primary-500 h-1.5 rounded-full" style="width: 45%"></div>
+							</div>
+						</div>
 					</div>
 
 					<!-- Right Visual: Desktop Reading -->
@@ -217,6 +313,23 @@
 							alt="Organized article collection" 
 							class="w-full h-full object-cover"
 						/>
+						<!-- Highlight Tool Overlay -->
+						<div class="absolute top-4 left-1/2 -translate-x-1/2 bg-gray-900/95 backdrop-blur-sm rounded-xl border border-gray-700 px-4 py-2 shadow-lg">
+							<div class="flex items-center gap-3">
+								<button class="w-8 h-8 flex items-center justify-center bg-yellow-400 rounded-lg text-gray-900 hover:bg-yellow-300">
+									<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-4 h-4">
+										<path d="M12 20h9"/>
+										<path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+									</svg>
+								</button>
+								<button class="w-8 h-8 flex items-center justify-center text-white hover:bg-white/10 rounded-lg">
+									{@html icons.reflection}
+								</button>
+								<button class="w-8 h-8 flex items-center justify-center text-white hover:bg-white/10 rounded-lg">
+									{@html icons.link}
+								</button>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -299,13 +412,38 @@
 				</p>
 			</div>
 
-			<div class="bg-gray-50 rounded-3xl p-8 md:p-12 mb-16">
-				<div class="bg-white rounded-2xl shadow-sm p-6 md:p-8 max-w-3xl mx-auto">
+			<div class="bg-gray-50 rounded-3xl p-8 md:p-12 mb-16 relative">
+				<!-- Floating Tag Pills -->
+				<div class="absolute top-4 right-4 hidden lg:flex flex-wrap gap-2 max-w-[200px]">
+					<span class="text-xs bg-white border border-gray-200 text-gray-700 px-3 py-1 rounded-full shadow-sm">Product</span>
+					<span class="text-xs bg-white border border-gray-200 text-gray-700 px-3 py-1 rounded-full shadow-sm">Design</span>
+					<span class="text-xs bg-white border border-gray-200 text-gray-700 px-3 py-1 rounded-full shadow-sm">Strategy</span>
+					<span class="text-xs bg-white border border-gray-200 text-gray-700 px-3 py-1 rounded-full shadow-sm">Research</span>
+				</div>
+				
+				<div class="bg-white rounded-2xl shadow-sm p-6 md:p-8 max-w-3xl mx-auto relative">
+					<!-- Search Bar Overlay -->
+					<div class="absolute -top-4 left-1/2 -translate-x-1/2 w-[90%] max-w-md bg-white rounded-xl border border-gray-200 shadow-lg p-3 hidden md:block">
+						<div class="flex items-center gap-2">
+							<div class="text-gray-400">
+								{@html icons.search}
+							</div>
+							<input 
+								type="text" 
+								placeholder="Search articles, tags, collections..." 
+								class="flex-1 text-sm text-gray-600 outline-none bg-transparent"
+								disabled
+							/>
+							<kbd class="bg-gray-100 px-2 py-1 rounded text-xs font-mono text-gray-500">⌘K</kbd>
+						</div>
+					</div>
+					
 					<!-- Stats -->
-					<div class="grid grid-cols-4 gap-4 mb-8">
-						<div class="bg-primary-100 p-3 rounded-xl">
+					<div class="grid grid-cols-4 gap-4 mb-8 mt-8 md:mt-0">
+						<div class="bg-primary-100 p-3 rounded-xl relative">
 							<div class="text-xs font-bold text-primary-800 mb-1">Unread</div>
 							<div class="text-2xl font-bold text-primary-900">47</div>
+							<div class="absolute -top-1 -right-1 w-3 h-3 bg-primary-500 rounded-full border-2 border-white"></div>
 						</div>
 						<div class="bg-gray-100 p-3 rounded-xl">
 							<div class="text-xs font-bold text-gray-600 mb-1">Reading</div>
@@ -405,54 +543,110 @@
 
 			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
 				<!-- Card 1 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
+				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col relative overflow-hidden">
 					<h3 class="font-bold text-gray-900 mb-2">Industry research</h3>
 					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Stay current with trends and insights in your field without drowning in tabs.</p>
+					<!-- Mini Article Card -->
+					<div class="absolute top-2 right-2 w-16 h-20 bg-white rounded-lg border border-gray-200 shadow-sm p-2">
+						<div class="w-full h-8 bg-gray-200 rounded mb-1"></div>
+						<div class="w-full h-1 bg-gray-200 rounded mb-0.5"></div>
+						<div class="w-3/4 h-1 bg-gray-200 rounded"></div>
+					</div>
 				</div>
 				<!-- Card 2 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
+				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col relative overflow-hidden">
 					<h3 class="font-bold text-gray-900 mb-2">Competitive analysis</h3>
 					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Collect and organize articles about competitors and market movements.</p>
+					<!-- Collection Badge -->
+					<div class="absolute top-2 right-2 bg-white rounded-lg border border-gray-200 px-2 py-1 shadow-sm">
+						<div class="text-xs font-medium text-gray-700">📊 Analysis</div>
+					</div>
 				</div>
 				<!-- Card 3 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
+				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col relative overflow-hidden">
 					<h3 class="font-bold text-gray-900 mb-2">Learning & development</h3>
 					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Build a curated library of resources for skill development and growth.</p>
+					<!-- Progress Indicator -->
+					<div class="absolute top-2 right-2 flex flex-col gap-1">
+						<div class="w-12 h-1 bg-primary-500 rounded-full"></div>
+						<div class="w-12 h-1 bg-primary-300 rounded-full"></div>
+						<div class="w-12 h-1 bg-gray-300 rounded-full"></div>
+					</div>
 				</div>
 				<!-- Card 4 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
+				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col relative overflow-hidden">
 					<h3 class="font-bold text-gray-900 mb-2">Content inspiration</h3>
 					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Save examples and ideas that inspire your own writing and creation.</p>
+					<!-- Bookmark Icon -->
+					<div class="absolute top-2 right-2 w-6 h-8 bg-primary-500 rounded-b-sm" style="clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 75%, 0 100%)"></div>
 				</div>
 
 				<!-- Card 5 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
+				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col relative overflow-hidden">
 					<h3 class="font-bold text-gray-900 mb-2">Product research</h3>
 					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Gather insights about user needs, design patterns, and best practices.</p>
+					<!-- Stacked Cards -->
+					<div class="absolute top-2 right-2">
+						<div class="w-14 h-16 bg-white rounded-lg border border-gray-200 shadow-sm absolute top-0 right-0"></div>
+						<div class="w-14 h-16 bg-white rounded-lg border border-gray-200 shadow-sm absolute top-1 right-1"></div>
+						<div class="w-14 h-16 bg-white rounded-lg border border-gray-200 shadow-sm absolute top-2 right-2"></div>
+					</div>
 				</div>
 				<!-- Card 6 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
+				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col relative overflow-hidden">
 					<h3 class="font-bold text-gray-900 mb-2">Investment research</h3>
 					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Track market analysis, company profiles, and financial insights.</p>
+					<!-- Chart Icon -->
+					<div class="absolute top-2 right-2 w-12 h-12 bg-white rounded-lg border border-gray-200 shadow-sm p-2">
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-full h-full text-green-500">
+							<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+						</svg>
+					</div>
 				</div>
 				<!-- Card 7 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
+				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col relative overflow-hidden">
 					<h3 class="font-bold text-gray-900 mb-2">Academic reading</h3>
 					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Organize papers, articles, and research materials for your studies.</p>
+					<!-- Citation Badge -->
+					<div class="absolute top-2 right-2 bg-white rounded-lg border border-gray-200 px-2 py-1 shadow-sm">
+						<div class="text-xs font-mono text-gray-600">[1]</div>
+					</div>
 				</div>
 				<!-- Card 8 -->
-				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col">
+				<div class="bg-gray-100 p-6 rounded-xl min-h-[200px] flex flex-col relative overflow-hidden">
 					<h3 class="font-bold text-gray-900 mb-2">Newsletter curation</h3>
 					<p class="text-xs text-gray-600 mt-auto leading-relaxed">Save the best articles from your favorite newsletters in one place.</p>
+					<!-- Email Icon -->
+					<div class="absolute top-2 right-2 w-10 h-8 bg-white rounded-lg border border-gray-200 shadow-sm flex items-center justify-center">
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-4 h-4 text-gray-600">
+							<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+							<polyline points="22,6 12,13 2,6"/>
+						</svg>
+					</div>
 				</div>
 			</div>
 		</section>
 
 		<!-- Final CTA Section -->
 		<section class="max-w-6xl mx-auto px-6 py-20">
-			<div class="bg-gray-950 rounded-3xl overflow-hidden">
+			<div class="bg-gray-950 rounded-3xl overflow-hidden relative">
+				<!-- Floating Stats Badge -->
+				<div class="absolute top-6 left-6 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20 px-4 py-3 shadow-lg hidden lg:block z-10">
+					<div class="flex items-center gap-3">
+						<div class="flex -space-x-2">
+							<div class="w-8 h-8 rounded-full bg-primary-400 border-2 border-gray-950"></div>
+							<div class="w-8 h-8 rounded-full bg-primary-500 border-2 border-gray-950"></div>
+							<div class="w-8 h-8 rounded-full bg-primary-600 border-2 border-gray-950"></div>
+						</div>
+						<div>
+							<div class="text-xs font-bold text-white">2,847 readers</div>
+							<div class="text-xs text-gray-400">joined this week</div>
+						</div>
+					</div>
+				</div>
+				
 				<div class="grid grid-cols-1 md:grid-cols-2">
-					<div class="p-8 md:p-12 flex flex-col justify-center">
+					<div class="p-8 md:p-12 flex flex-col justify-center relative">
 						<h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
 							Start reading with focus
 						</h2>
@@ -470,13 +664,43 @@
 							</button>
 						</div>
 						<p class="text-xs text-gray-500 mt-4">Free 14-day trial. No credit card required.</p>
+						
+						<!-- Feature Pills -->
+						<div class="flex flex-wrap gap-2 mt-6">
+							<div class="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm rounded-full px-3 py-1.5 border border-white/20">
+								<div class="w-1.5 h-1.5 bg-green-400 rounded-full"></div>
+								<span class="text-xs text-gray-300">No credit card</span>
+							</div>
+							<div class="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm rounded-full px-3 py-1.5 border border-white/20">
+								<div class="w-1.5 h-1.5 bg-green-400 rounded-full"></div>
+								<span class="text-xs text-gray-300">Cancel anytime</span>
+							</div>
+							<div class="flex items-center gap-1.5 bg-white/10 backdrop-blur-sm rounded-full px-3 py-1.5 border border-white/20">
+								<div class="w-1.5 h-1.5 bg-green-400 rounded-full"></div>
+								<span class="text-xs text-gray-300">14-day trial</span>
+							</div>
+						</div>
 					</div>
-					<div class="hidden md:block">
+					<div class="hidden md:block relative">
 						<img 
 							src="/generated/image-a-young-professional-commuting-on-public-1765583628400-3.webp" 
 							alt="Professional reading on mobile" 
 							class="w-full h-full object-cover"
 						/>
+						<!-- Mobile App Preview Badge -->
+						<div class="absolute bottom-6 right-6 bg-white/95 backdrop-blur-sm rounded-xl border border-gray-200 p-3 shadow-lg">
+							<div class="flex items-center gap-2">
+								<div class="w-10 h-10 bg-gray-900 rounded-xl flex items-center justify-center">
+									<svg width="20" height="14" viewBox="0 0 117 78" fill="white" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M83.0101 48.3334H67.6809C65.1171 48.3334 62.6584 49.3518 60.8454 51.1647L56.8415 55.1687C55.0285 56.9817 52.5698 58 50.0059 58H34.6768C26.6686 58 20.1768 51.5081 20.1768 43.5C20.1768 35.4919 26.6686 29 34.6768 29H50.0059C52.5698 29 55.0285 27.9817 56.8415 26.1687L60.8454 22.1647C62.6584 20.3518 65.1171 19.3334 67.6809 19.3334H83.0101C91.0182 19.3334 97.5101 25.8253 97.5101 33.8334C97.5101 41.8415 91.0182 48.3334 83.0101 48.3334Z" fill="white"/>
+									</svg>
+								</div>
+								<div>
+									<div class="text-xs font-bold text-gray-900">Socrates</div>
+									<div class="text-xs text-gray-600">Available on iOS</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
